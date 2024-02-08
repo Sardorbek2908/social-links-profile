@@ -115,6 +115,11 @@ main {
 
 .btn:hover {
     background-color: var(--Neon-Green);
+    color: var(--Black);
+}
+.btn:active {
+    background-color: var(--Neon-Green);
+    color: var(--Black);
 }
 
 .all-btn:active {
