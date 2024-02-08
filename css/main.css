@@ -99,6 +99,7 @@ main {
     border-radius: 8px;
     background: var(--Grey);
     cursor: pointer;
+    transition: .5s;
 }
 
 .all-btn {
@@ -109,6 +110,7 @@ main {
     font-weight: 700;
     line-height: 150%;
     cursor: pointer;
+    transition: .5s;
 }
 
 .btn:hover {
