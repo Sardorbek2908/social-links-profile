@@ -86,43 +86,29 @@ main {
     font-size: 14px;
     font-weight: 400;
     line-height: 150%;
-}
-
-.btn {
-    display: flex;
-    padding: 12px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    align-self: stretch;
-    margin-top: 24px;
-    border-radius: 8px;
-    background: var(--Grey);
-    cursor: pointer;
-    transition: .5s;
+    margin-bottom: 24px;
 }
 
 .all-btn {
     color: var(--White);
     font-family: Inter;
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: 150%;
+    display: flex;
+    padding: 12px;
+    width: 304px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 8px;
+    background: var(--Grey);
     cursor: pointer;
     transition: .5s;
 }
 
-.btn:hover {
+.all-btn:active{
     background-color: var(--Neon-Green);
-    color: var(--Black);
-}
-.btn:active {
-    background-color: var(--Neon-Green);
-    color: var(--Black);
-}
-
-.all-btn:active {
-    background-color: var(--Neon-Green);
-    color: var(--Black);
+    color: var(--Dark-Grey);
 }
