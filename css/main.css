@@ -52,6 +52,8 @@ main {
 .site-img {
     border-radius: 50%;
     align-items: center;
+    width: 88px;
+    height: 88px;
 }
 
 .site-title {
