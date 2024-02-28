@@ -14,8 +14,14 @@
 @media (max-width: 684px) {}
 /* mobile < 576 */
 @media (max-width: 576px) {}
-@media (max-width: 480px) {}
-@media (max-width: 412px) {}
+@media (max-width: 480px) {
+}
+@media (max-width: 412px) {
+    .card {
+        width: 370px;
+        padding: 15px;
+    }
+}
 @media (max-width: 375px) {
     main {
         width: 100%;
@@ -48,4 +54,21 @@
         margin-top: 13px;
     }
 }
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    .card {
+        width: 270px;
+        padding: 10px;
+    }
+    .site-text {
+        margin-top: 22px;
+        font-size: 12px;
+    }
+    .all-btn {
+        font-size: 10px;
+        line-height: 140%;
+        padding: 12px;
+        width: 250px;
+        height: 35px;
+        margin-top: 13px;
+    }
+}
